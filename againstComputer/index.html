@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Let's Play!</h1>
+    <div class="container">
+      <div class="dice">
+        <p class="player"></p>
+        <img class="img1" src="" />
+      </div>
+
+      <div class="dice">
+        <p class="computer"></p>
+        <img class="img2" src="" />
+      </div>
+    </div>
+    
+    <div class="side-of-dice">
+      <h2>Pick side of the dice to start</h2>
+      <div class="container-grid">
+        <div class="grid"><button class="btn" data-value="1">1</button></div>
+        <div class="grid"><button class="btn" data-value="2">2</button></div>
+        <div class="grid"><button class="btn" data-value="3">3</button></div>
+        <div class="grid"><button class="btn" data-value="4">4</button></div>
+        <div class="grid"><button class="btn" data-value="5">5</button></div>
+        <div class="grid"><button class="btn" data-value="6">6</button></div>
+      </div>
+    </div>
+      <div class="button">
+        <button class="reset-btn" onclick="restScore()">Reset</button>
+      </div>
+        
+    </div>
+   
+    <footer>Paulo 🎲 Dice Game 🎲 Mugaduia</footer>
+
+
+    <script src="../againstComputer/scripts.js"></script>
+  </body>
+</html>

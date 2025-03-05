@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesfirst.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Select your opponet</h1>
+      <div class="player">
+        <a href="#" class="player-two" onclick="secondPlayer()">Player 2</a>
+      </div>
+      <div class="dice">
+        <img src="./images/dice6.png" alt="">
+      </div>
+      
+      <div class="player">
+        <a href="./againstComputer/index.html">Computer</a>
+      </div>
+    
+    </div>
+    <footer>Paulo 🎲 Dice Game 🎲 Mugaduia</footer>
+
+
+    <script>
+      const playerTwo = document.querySelector(".player-two");
+
+      function secondPlayer(){
+        playerTwo.innerHTML = "Not available";
+        playerTwo.classList.toggle("not-available");
+      }
+    </script>
+  </body>
+</html>

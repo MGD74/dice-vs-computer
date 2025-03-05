@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  body {
+    background-color: #393E46;
+    font-family: 'Lobster', cursive;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+  }
+  ul{
+    
+  }
+  .player{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .player a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .player a:hover{
+    background-color: #fff;
+    color: #232931;
+    border-radius: 5rem;
+  }
+  
+  img{
+    font-size: 3rem;
+    text-align: center;
+    width: 12%;
+  }
+  
+  
+  button:hover{
+    background-color: #232931;
+    color: #fff;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+
+  .not-available{
+    background-color: red;
+    border-radius: 5rem;
+  }
+
+  @media (max-width: 604px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+
+    h1{
+      font-size: 3.5rem;
+      margin-top: 6rem;
+    }
+
+    .player{
+      list-style: none;
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .player a{
+      padding: 0.5rem 1rem;
+      margin-bottom: 1rem;
+    }
+
+    img{
+      font-size: 3rem;
+      text-align: center;
+      width: 30%;
+    }
+    
+  }
+  
